@@ -1,0 +1,25 @@
+.Stats {
+    min-height: 8.7rem;
+    display: flex;
+    background-color: #fff;
+    border: none;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.46875rem 2.1875rem rgb(90 97 105 / 10%), 0 0.9375rem 1.40625rem rgb(90 97 105 / 10%), 0 0.25rem 0.53125rem rgb(90 97 105 / 12%), 0 0.125rem 0.1875rem rgb(90 97 105 / 10%);
+}
+.Stats > .Content {
+    margin: auto;
+    text-align: center;
+}
+
+.Stats > .Content > .Header {
+    letter-spacing: .0625rem;
+    text-transform: uppercase;
+    color: #818ea3;
+    font-size: 0.825rem;
+}
+
+.Stats > .Content > .Count {
+    font-size: 1.625rem;
+    color: #3d5170;
+    line-height: 1.5rem;
+}

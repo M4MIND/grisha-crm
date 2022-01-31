@@ -1,0 +1,16 @@
+.Dashboard {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 280px 1fr;
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-areas: "Sidebar Content" "Sidebar Content" "Sidebar Content";
+}
+
+.Header {
+    color: #3d5170;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.625;
+    margin: 0 0 1rem 0;
+    padding: 0;
+}
